@@ -1,0 +1,67 @@
+* {
+
+margin:0;
+
+padding: 0;
+
+}
+
+html,body {
+    background-color: #380577;
+    color: white;
+
+height: 100%;
+
+}
+
+header, main, footer {
+    width:1040px;
+    margin:0 auto;
+}
+.main__img--float{ 
+width: 550px;
+margin-right: 40px;
+float: left;
+ 
+
+} 
+
+#wrapper{
+
+min-height: 100%;
+
+height: auto !important;
+
+height: 100%;
+
+width: 100%;
+
+}
+
+header{
+
+height:120px;
+
+}
+
+main{
+
+padding-bottom: 100px;
+
+}
+
+footer{
+
+margin: -100px auto 0;
+
+position: relative;
+
+height: 100px;
+
+}
+#panorama {
+width: 100%;
+height: 150px;
+background:url(../img/ауди\ 2.jpg)no-repeat center 70%;
+background-size:cover; /*масштабирование фона*/
+}
